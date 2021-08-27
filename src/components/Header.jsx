@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+import './header.scss';
 
 function Header() {
   return (
     <header>
-      Filizzola
-      <div>
+      <p>Filizzola</p>
+      <div className="container">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>

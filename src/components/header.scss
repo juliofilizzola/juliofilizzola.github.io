@@ -1,0 +1,35 @@
+header { 
+  padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+  align-self: center;
+
+  a { 
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    background-color: #03A696;
+    border: none;
+    color: #FDFAEF;
+  }
+  
+  a:active {
+    background-color: #024059;
+  }
+}
+
+
